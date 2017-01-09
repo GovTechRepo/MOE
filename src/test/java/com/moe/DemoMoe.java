@@ -8,6 +8,7 @@ public class DemoMoe {
 	public void testLogin(){
 		
 		System.out.println("Successfully Login");
+		System.out.println("Successfully Login2");
 	
 	}
 
