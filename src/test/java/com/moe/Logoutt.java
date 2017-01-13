@@ -8,6 +8,7 @@ public class Logoutt {
 	private void pubic() {
 		// TODO Auto-generated method stub
              System.out.println("Successfully logout");
+             System.out.println("Successfully logout2");
 	}
 
 }
