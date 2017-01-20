@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.moe.GmailComposeTNG">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGmailComposeTNG"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.moe.GmailComposeTNG -->
+      <class name="com.moe.GmailLoginTNG">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGmailLoginTNG"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.moe.GmailLoginTNG -->
+      <class name="com.moe.GmailLogutTNG">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGmailLogutTNG"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.moe.GmailLogutTNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
